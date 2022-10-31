@@ -11,6 +11,11 @@ public class One {
 		this.b = b;
 	}
 
+	public int suma() {
+		int c = a + b;
+		return c;
+	}
+
 	public int getA() {
 		return a;
 	}
@@ -18,10 +23,6 @@ public class One {
 	public void setA(int a) {
 		this.a = a;
 	}
-	
-	
-	
-	
 }
 
 
