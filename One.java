@@ -4,11 +4,13 @@ public class One {
 
 	private int a;
 	int b;
+	int temp;
 	
-	public One(int a, int b) {
+	public One(int a, int b, int temp) {
 		super();
 		this.a = a;
 		this.b = b;
+		this.temp = temp;
 	}
 
 	public int getA() {
@@ -18,10 +20,6 @@ public class One {
 	public void setA(int a) {
 		this.a = a;
 	}
-	
-	
-	
-	
 }
 
 
