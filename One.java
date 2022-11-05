@@ -13,7 +13,11 @@ public class One {
 		this.temp = temp;
 	}
 
-	int suma() {
+	int sumaDemo() {
+		return suma();
+	}
+
+	private int suma() {
 		int c = a + b;
 		return c;
 	}
@@ -26,5 +30,3 @@ public class One {
 		this.a = a;
 	}
 }
-
-
