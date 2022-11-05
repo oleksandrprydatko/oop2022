@@ -1,8 +1,6 @@
-package lab_3;
-
 public class One {
 
-	private int a;
+	int a;
 	int b;
 	int temp;
 	
@@ -13,20 +11,8 @@ public class One {
 		this.temp = temp;
 	}
 
-	int sumaDemo() {
-		return suma();
-	}
-
-	private int suma() {
+	int suma() {
 		int c = a + b;
 		return c;
-	}
-
-	public int getA() {
-		return a;
-	}
-
-	public void setA(int a) {
-		this.a = a;
 	}
 }
